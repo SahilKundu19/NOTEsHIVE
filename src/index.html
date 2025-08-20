@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOTEsHIVE - A Structured Hub for Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/src/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar Header -->
+      <div class="sidebar-header">
+        <div class="sidebar-header-inner">
+          <div class="sidebar-logo">
+            <span>N</span>
+          </div>
+          <h1 class="sidebar-title">NOTEsHIVE</h1>
+        </div>
+      </div>
+
+      <!-- Sidebar Add -->
+      <div class="sidebar-add">
+        <div class="sidebar-add-button">
+          <img
+            src="/src/images/add.png"
+            alt="add"
+            class="sidebar-add-button-image"
+          />
+          <div class="sidebar-add-button-text">Add new</div>
+        </div>
+        <div class="sidebar-indicators-box">
+          <div class="sidebar-indicator yellow"></div>
+          <div class="sidebar-indicator red"></div>
+          <div class="sidebar-indicator blue"></div>
+        </div>
+      </div>
+
+      <!-- Sidebar Navigation -->
+      <div class="sidebar-nav">
+        <nav>
+          <a href="#" class="sidebar-nav-box-anchors">
+            <img
+              src="/src/images/calendar.png"
+              alt="calendar"
+              class="sidebar-nav-box-icons"
+            />
+            <div class="sidebar-nav-box-text">Calendar</div>
+          </a>
+          <a href="#" class="sidebar-nav-box-anchors">
+            <img
+              src="/src/images/storage-box.png"
+              alt="archive"
+              class="sidebar-nav-box-icons"
+            />
+            <div class="sidebar-nav-box-text">Archive</div>
+          </a>
+          <a href="#" class="sidebar-nav-box-anchors">
+            <img
+              src="/src/images/delete.png"
+              alt="trash"
+              class="sidebar-nav-box-icons"
+            />
+            <div class="sidebar-nav-box-text">Trash</div>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="sidebar-footer-inner">
+          <div class="sidebar-footer-inner-box">
+            <img
+              src="/src/images/Sidebar-image.png"
+              alt="footer image"
+              class="sidebar-footer-image"
+            />
+          </div>
+          <div class="sidebar-footer-text">
+            Want to access unlimited notes taking experience & lots of feature?
+          </div>
+        </div>
+        <button class="sidebar-upgrade-button">Upgrade pro</button>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <!-- Left section -->
+      <h1 class="header-title">MY NOTES</h1>
+
+      <!-- Right Section -->
+      <div class="header-right">
+        <div class="header-right-search">
+          <img
+            src="/src/images/search-icon.png"
+            alt="Search"
+            class="header-right-search-icon"
+          />
+          <input type="search" class="search-input" placeholder="Search" />
+        </div>
+
+        <div class="header-right-user-profile">
+          <div class="header-right-user-name">Sayef mahmud</div>
+          <img
+            src="/src/images/user-profile-image.jpeg"
+            alt="User"
+            class="header-right-user-image"
+          />
+          <div class="user-right-icons-div">
+            <img
+              src="/src/images/bell.png"
+              alt="Notification"
+              class="header-right-icons"
+            />
+            <img src="/src/images/menu.png" alt="Menu" class="header-right-icons" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="dashboard">
+      <!-- Recent Folders Section -->
+      <div class="folders">
+        <h2 class="section-title">Recent Folders</h2>
+        <div class="tab-navigation">
+          <button class="tab active">Todays</button>
+          <button class="tab">This Week</button>
+          <button class="tab">This Month</button>
+        </div>
+        <div class="folder-list">
+          <div class="folder-card blue">
+            <div class="folder-header">
+              <img src="/src/images/folder-blue.png" alt="folder" class="icon" />
+              <img src="/src/images/three-dots.png" alt="menu" class="menu" />
+            </div>
+            <h3>Movie Review</h3>
+            <p>12/12/2021</p>
+          </div>
+
+          <div class="folder-card red">
+            <div class="folder-header">
+              <img src="/src/images/folder-red.png" alt="folder" class="icon" />
+              <img src="/src/images/three-dots.png" alt="menu" class="menu" />
+            </div>
+            <h3>Movie Review</h3>
+            <p>12/12/2021</p>
+          </div>
+
+          <div class="folder-card yellow">
+            <div class="folder-header">
+              <img src="/src/images/folder-brown.png" alt="folder" class="icon" />
+              <img src="/src/images/three-dots.png" alt="menu" class="menu" />
+            </div>
+            <h3>Movie Review</h3>
+            <p>12/12/2021</p>
+          </div>
+
+          <div class="folder-card new">
+            <img src="/src/images/folder.png" alt="folder" class="icon" />
+            <p>New Folder</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notes Section -->
+      <div class="notes">
+        <div class="notes-header">
+          <h2 class="section-title">My Notes</h2>
+          <div class="month-switch">
+            <img
+              src="/src/images/less-than-symbol.png"
+              alt="less than"
+              class="month-switch-icon"
+            />
+            <span>December 2021</span>
+            <img
+              src="/src/images/greater-than-symbol.png"
+              alt="greater than"
+              class="month-switch-icon"
+            />
+          </div>
+        </div>
+
+        <div class="tab-navigation">
+          <button class="tab active">Todays</button>
+          <button class="tab">This Week</button>
+          <button class="tab">This Month</button>
+        </div>
+
+        <div class="notes-list">
+          <div class="note-card yellow">
+            <div class="note-header">
+              <h3>Mid test exam</h3>
+              <div class="note-header-right">
+                <img
+                  src="/src/images/bookmark.png"
+                  alt="bookmark"
+                  class="note-header-icon"
+                />
+                <img
+                  src="/src/images/three-dots.png"
+                  alt="menu"
+                  class="note-header-icon"
+                />
+              </div>
+            </div>
+            <p>
+              Ultrices viverra odio congue lacus felis, libero egestas nunc sed
+              are massa, elit ornare erat sem velit in...
+            </p>
+            <div class="note-time">
+              <img src="/src/images/clock.png" alt="clock" class="note-time-icon" />
+              <span>10:30 PM, Monday</span>
+            </div>
+          </div>
+
+          <div class="note-card red">
+            <div class="note-header">
+              <h3>Mid test exam</h3>
+              <div class="note-header-right">
+                <img
+                  src="/src/images/bookmark.png"
+                  alt="bookmark"
+                  class="note-header-icon"
+                />
+                <img
+                  src="/src/images/three-dots.png"
+                  alt="menu"
+                  class="note-header-icon"
+                />
+              </div>
+            </div>
+            <p>
+              Ultrices viverra odio congue lacus felis, libero egestas nunc sed
+              are massa, elit ornare erat sem velit in...
+            </p>
+            <div class="note-time">
+              <img src="/src/images/clock.png" alt="clock" class="note-time-icon" />
+              <span>10:30 PM, Monday</span>
+            </div>
+          </div>
+
+          <div class="note-card blue">
+            <div class="note-header">
+              <h3>Jonas's notes</h3>
+              <div class="note-header-right">
+                <img
+                  src="/src/images/bookmark.png"
+                  alt="bookmark"
+                  class="note-header-icon"
+                />
+                <img
+                  src="/src/images/three-dots.png"
+                  alt="menu"
+                  class="note-header-icon"
+                />
+              </div>
+            </div>
+            <p>
+              Rakly viverra odio cangue lacus felis, libero egestas nunc sed are
+              massa, elit ornare erat sem velit in ulum.
+            </p>
+            <div class="note-time">
+              <img src="/src/images/clock.png" alt="clock" class="note-time-icon" />
+              <span>4:30 PM, Sunday</span>
+            </div>
+          </div>
+
+          <div class="note-card new">
+            <div class="plus"></div>
+            <span>New Note</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
