@@ -5,17 +5,17 @@ A modern, feature-rich note-taking application built with React, TypeScript, and
 
 ---------------------------------------------
 
-<!-- ---
+
 ## Screenshots of Trackify
 
 - Light Mode
-  ![Trackify Screenshot](https://github.com/SahilKundu19/Trackify/blob/d2c2d5cfac2ddd6e8bfc8ed22c2e35df6ceee588/Trackify-Light-Mode.png)
+  ![NOTEsHIVE Screenshot](https://github.com/SahilKundu19/NOTEsHIVE/blob/3ceecdac3bc1220f7ab7fd1a956327f921f22b5d/NOTEsHIVE-Light-Mode.png)
   
 - Dark Mode
-  ![Trackify Screenshot](https://github.com/SahilKundu19/Trackify/blob/d2c2d5cfac2ddd6e8bfc8ed22c2e35df6ceee588/Trackify-dark-mode.png)
+  ![NOTEsHIVE Screenshot](https://github.com/SahilKundu19/NOTEsHIVE/blob/3ceecdac3bc1220f7ab7fd1a956327f921f22b5d/NOTEsHIVE-Dark-Mode.png)
   
 - Mobile View
-  ![Trackify Screenshot](https://github.com/SahilKundu19/Trackify/blob/d2c2d5cfac2ddd6e8bfc8ed22c2e35df6ceee588/Trackify-Mobile-view.png) -->
+  ![NOTEsHIVE Screenshot](https://github.com/SahilKundu19/NOTEsHIVE/blob/3ceecdac3bc1220f7ab7fd1a956327f921f22b5d/NOTEsHIVE-Mobile-View.png) 
 
 ---------------------------------------------
 
